@@ -1,0 +1,88 @@
+/* estilos generales */
+
+body {
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:30px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/* Estilos de id*/
+#hobbiesPpal {
+  display: flex;
+  align-items: center;
+  
+}
+
+#hobbiesSec {
+  display: flex;
+  padding: 20px;
+
+}
+
+/* Clases de div 1 */
+
+.titulo div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulo img{
+    border-radius: 15px;
+}
+
+.card {
+  width: 120vh;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid purple;
+  border-radius: 25px;
+
+  align-items: center;
+  text-align: justify;
+}
+
+.card h3 {
+}
+
+/* ------------ Clases de div2 */
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+}
+.gridContainer p {
+  border: 5px solid purple;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+
